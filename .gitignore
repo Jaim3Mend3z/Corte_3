@@ -10,6 +10,29 @@ venv/
 .env
 *.sqlite3
 *.log
+# Entornos virtuales
+venv/
+rasa38env/
+
+# Archivos y carpetas de Rasa
+.rasa/
+
+# Base de datos local
+db.sqlite3
+
+# Archivos de logs y cachés
+*.log
+__pycache__/
+*.pyc
+
+# Configuración local de editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.swp
+
 
 # Docker
 *.pid

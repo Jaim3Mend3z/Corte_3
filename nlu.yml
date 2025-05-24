@@ -1,0 +1,15 @@
+version: "3.1"
+nlu:
+  - intent: saludo
+    examples: |
+      - hola
+      - buenos días
+      - qué tal
+      - hey
+
+  - intent: despedida
+    examples: |
+      - adiós
+      - hasta luego
+      - nos vemos
+      - chao

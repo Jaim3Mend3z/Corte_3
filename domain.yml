@@ -1,0 +1,16 @@
+version: "3.1"
+
+intents:
+  - saludo
+  - despedida
+
+responses:
+  utter_saludo:
+    - text: "¡Hola! ¿en qué puedo ayudarte hoy?"
+
+  utter_despedida:
+    - text: "¡Hasta luego! Que tengas un buen día."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
