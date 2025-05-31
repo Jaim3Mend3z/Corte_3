@@ -2,6 +2,7 @@
 venv/
 rasa38env/
 .venv/
+Streamlit/
 
 # Archivos de configuración sensibles
 credentials.yml
