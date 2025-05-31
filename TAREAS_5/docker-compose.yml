@@ -1,0 +1,11 @@
+version: "3"
+services:
+  ros_node:
+    build: ./docker
+    image: ros_docker_example
+    container_name: ros_talker
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    network_mode: host

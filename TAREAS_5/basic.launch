@@ -1,0 +1,3 @@
+<launch>
+  <node name="position_publisher" pkg="ros_docker_example" type="talker.py" output="screen"/>
+</launch>

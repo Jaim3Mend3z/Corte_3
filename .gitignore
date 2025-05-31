@@ -1,0 +1,43 @@
+# Entornos virtuales
+venv/
+rasa38env/
+.venv/
+
+# Archivos de configuración sensibles
+credentials.yml
+
+# Archivos de bases de datos
+*.sqlite3
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos temporales o de backup
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos de Rasa generados
+models/
+data/nlu.md
+data/stories.md
+
+# Archivos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos HTML o index temporales
+index.html
+
+# Ignorar Dockerfile si es temporal
+# dockerfile
+
+# Otros directorios comunes
+*.egg-info/
+.eggs/
+build/
+dist/
